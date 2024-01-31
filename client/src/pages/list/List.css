@@ -1,0 +1,89 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap:20px;
+}
+.listSearch{
+    flex:1;
+    background-color: #E61F35;
+    min-height: 20vh;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    height: max-content;
+    top:10px;
+}
+.listSearch__Title{
+    font-size: 20px;
+    color:white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+label{
+    font-weight: 600;
+    color: rgb(242, 242, 242);
+    font-size: 13px;
+}
+.listSearch__Item>input{
+    height: 30px;
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: black;
+}
+.listSearch__Item>span{
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+.listSearch__Item{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-bottom: 10px;
+    color: black;
+}
+.listSearch__options{
+    padding: 10px;
+}
+.listSearch__OptionsItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+.optionItem__Text{
+    color: rgb(242, 242, 242);
+}
+.listSearch__OptionsItem>input{
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.listSearch>button{
+    margin-top: -10px;
+    padding: 10px;
+    border: none;
+    outline:none;
+    color: black;
+    background-color: #f4f4f4;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.searchResults{
+    flex:3;
+}

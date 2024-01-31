@@ -1,0 +1,97 @@
+.SearchItem{
+    border:1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.SearchItem__img{
+    height:200px;
+    width:200px;
+    object-fit: cover;
+}
+.SearchItem__desc{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    flex:2;
+}
+.SearchItem__title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #E61F35;
+}
+.SearchItem__distance{
+    font-size: 12px;
+}
+.SearchItem__taxiOptions{
+    font-size: 12px;
+    background-color: #E61F35;
+    color: white;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+.SearchItem__subtitle{
+    font-size: 12px;
+    font-weight: 600;
+}
+.SearchItem__feature{
+    font-size: 12px;
+}
+.SearchItem__cancelOptions{
+    font-size: 12px;
+    color:#E61F35;
+    font-weight: bold;
+}
+.cancelOptionsSubtitle{
+    font-size: 12px;
+    color:#d8132a;
+}
+.SearchItem__details{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.SearchItem__rating{
+    display: flex;
+    justify-content: space-between;
+}
+.SearchItem__rating>span{
+    font-weight: 500;
+}
+.SearchItem__rating>button{
+    background-color: #E61F35;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+.SearchItem__detailTexts{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.SearchItem__price{
+    font-size: 22px;
+}
+.SearchItem__taxOptions{
+    font-size: 12px;
+    color: gray;
+}
+.SearchItem__seeAvailability{
+    background-color: #E61F35;
+    color: white;
+    font-weight: bold;
+    padding: 7px 3px;
+    border-radius: 5px;
+    border:0;
+    outline:0;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.signin{
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.loginContainer{
+    box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+    z-index: 1;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    height:50vh;
+}
+.logo{
+    height: 100px;
+}
+.username,.password{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    border:1px solid black;
+    padding:5px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.icon{
+    margin-top: 4px;
+    font-size: 18px;
+}
+.usernameField,.passwordField{
+    border:0;
+    outline:0;
+    background: transparent;
+    width: 100%;
+}
+.button{
+    background-color: #E5152D;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.errorMsg{
+    color:red;
+}
